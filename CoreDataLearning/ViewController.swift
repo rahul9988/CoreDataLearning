@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .green
         fetch()
-        Person.truncate()
+        //Person.truncate()
         
 //        let filter = Person.results().filter{$0.password!.contains("**")}
         //filter.map({$0.password = "****"})
@@ -24,14 +24,17 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         print("viewDidAppear")
         
+        //saveData()
+    }
+    func saveData(){
         LocationManager.shared.getLiveLocationUpdates { (loc, str) in
             print(str)
             let person = Person(context: PresistanceService.context)
-            let idx = (Int.random(in: 1111...9999))
+            let idx = UUID().uuidString
             person.id = idx
-
-            person.name = "rahul-\(idx)"
+            person.name = "rahul"
             person.password = str
+            
             let card = Card(context: PresistanceService.context)
             card.id = "id-453534"
             card.name = "HDFC"
@@ -45,27 +48,13 @@ class ViewController: UIViewController {
             person.addToCards(card)
             person.addToFakeCards(fakecard)
             PresistanceService.saveContext()
-
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 9.0) {
-            self.fetch()
-           // self.saveData() // does not save if app is in back ground. will get save when it come in foreground.
-        }
-    }
-    func saveData(){
-        if Person.results().count == 0 {
-            for _ in 1...999 {
-                let person = Person(context: PresistanceService.context)
-                person.name = "rahul-\(Int.random(in: 1111...9999))"
-                person.password = "rd\(Int.random(in: 100...999))"
-            }
-            PresistanceService.saveContext()
-        } else {
-            fetch()
+            
         }
     }
     func fetch() {
         let results = Person.results()
+        print("=============>>>>>>>>>>")
+        print(results.count)
         results.forEach{
             print("id - \($0.id) = name - \($0.name) : password - \($0.password)")
             let person = $0
@@ -90,7 +79,6 @@ class ViewController: UIViewController {
                     
                 }
             }
-            
         }
 
     }

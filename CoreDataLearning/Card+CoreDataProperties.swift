@@ -11,8 +11,8 @@ import Foundation
 import CoreData
 
 
-extension Card {
-
+extension Card:CoreDataActions {
+    typealias Entity = Card
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Card> {
         return NSFetchRequest<Card>(entityName: "Card")
     }

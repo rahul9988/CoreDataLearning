@@ -7,7 +7,7 @@
         <relationship name="cardOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="cards" inverseEntity="Person" syncable="YES"/>
     </entity>
     <entity name="Person" representedClassName="Person" syncable="YES">
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="cards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="cardOwner" inverseEntity="Card" syncable="YES"/>
@@ -19,7 +19,7 @@
         </uniquenessConstraints>
     </entity>
     <elements>
-        <element name="Person" positionX="-54" positionY="-9" width="128" height="118"/>
         <element name="Card" positionX="182.296875" positionY="-5.5390625" width="128" height="103"/>
+        <element name="Person" positionX="-54" positionY="-9" width="128" height="120"/>
     </elements>
 </model>
