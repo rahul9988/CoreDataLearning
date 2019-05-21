@@ -7,30 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E6A5FA9229294E00098F056 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A5FA8229294E00098F056 /* LocationManager.swift */; };
+		7E6A5FAB229294E80098F056 /* rcpToVashi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7E6A5FAA229294E80098F056 /* rcpToVashi.gpx */; };
+		7E6A5FB22292B6560098F056 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A5FB02292B6560098F056 /* Model.xcdatamodeld */; };
+		7E6A5FC82293C75D0098F056 /* PPerson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A5FC62293C75D0098F056 /* PPerson+CoreDataClass.swift */; };
+		7E6A5FC92293C75D0098F056 /* PPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A5FC72293C75D0098F056 /* PPerson+CoreDataProperties.swift */; };
+		7E6A5FDA2293E4400098F056 /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A5FD82293E4400098F056 /* Card+CoreDataClass.swift */; };
+		7E6A5FE72293FC570098F056 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A5FE62293FC570098F056 /* Card+CoreDataProperties.swift */; };
 		B79C382121C936F900E08403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C382021C936F900E08403 /* AppDelegate.swift */; };
 		B79C382321C936F900E08403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C382221C936F900E08403 /* ViewController.swift */; };
 		B79C382621C936F900E08403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79C382421C936F900E08403 /* Main.storyboard */; };
-		B79C382921C936F900E08403 /* CoreDataLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B79C382721C936F900E08403 /* CoreDataLearning.xcdatamodeld */; };
 		B79C382B21C936F900E08403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79C382A21C936F900E08403 /* Assets.xcassets */; };
 		B79C382E21C936F900E08403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79C382C21C936F900E08403 /* LaunchScreen.storyboard */; };
 		B79C383621C9388C00E08403 /* PresistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C383521C9388C00E08403 /* PresistanceService.swift */; };
-		B79C383921C93EEC00E08403 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C383721C93EEC00E08403 /* Person+CoreDataClass.swift */; };
-		B79C383A21C93EEC00E08403 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C383821C93EEC00E08403 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E6A5FA8229294E00098F056 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = CoreDataLearning/LocationManager.swift; sourceTree = "<group>"; };
+		7E6A5FAA229294E80098F056 /* rcpToVashi.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rcpToVashi.gpx; sourceTree = "<group>"; };
+		7E6A5FB12292B6560098F056 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7E6A5FC62293C75D0098F056 /* PPerson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PPerson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7E6A5FC72293C75D0098F056 /* PPerson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PPerson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E6A5FD82293E4400098F056 /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7E6A5FE62293FC570098F056 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B79C381D21C936F900E08403 /* CoreDataLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79C382021C936F900E08403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B79C382221C936F900E08403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B79C382521C936F900E08403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B79C382821C936F900E08403 /* CoreDataLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLearning.xcdatamodel; sourceTree = "<group>"; };
 		B79C382A21C936F900E08403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B79C382D21C936F900E08403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B79C382F21C936F900E08403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B79C383521C9388C00E08403 /* PresistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresistanceService.swift; sourceTree = "<group>"; };
-		B79C383721C93EEC00E08403 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		B79C383821C93EEC00E08403 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B79C383B21C94F7F00E08403 /* CoreDataLearning 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataLearning 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,8 @@
 		B79C381421C936F800E08403 = {
 			isa = PBXGroup;
 			children = (
+				7E6A5FAA229294E80098F056 /* rcpToVashi.gpx */,
+				7E6A5FA8229294E00098F056 /* LocationManager.swift */,
 				B79C381F21C936F900E08403 /* CoreDataLearning */,
 				B79C381E21C936F900E08403 /* Products */,
 			);
@@ -63,8 +72,10 @@
 		B79C381F21C936F900E08403 /* CoreDataLearning */ = {
 			isa = PBXGroup;
 			children = (
-				B79C383721C93EEC00E08403 /* Person+CoreDataClass.swift */,
-				B79C383821C93EEC00E08403 /* Person+CoreDataProperties.swift */,
+				7E6A5FD82293E4400098F056 /* Card+CoreDataClass.swift */,
+				7E6A5FE62293FC570098F056 /* Card+CoreDataProperties.swift */,
+				7E6A5FC62293C75D0098F056 /* PPerson+CoreDataClass.swift */,
+				7E6A5FC72293C75D0098F056 /* PPerson+CoreDataProperties.swift */,
 				B79C382021C936F900E08403 /* AppDelegate.swift */,
 				B79C383521C9388C00E08403 /* PresistanceService.swift */,
 				B79C382221C936F900E08403 /* ViewController.swift */,
@@ -72,7 +83,7 @@
 				B79C382A21C936F900E08403 /* Assets.xcassets */,
 				B79C382C21C936F900E08403 /* LaunchScreen.storyboard */,
 				B79C382F21C936F900E08403 /* Info.plist */,
-				B79C382721C936F900E08403 /* CoreDataLearning.xcdatamodeld */,
+				7E6A5FB02292B6560098F056 /* Model.xcdatamodeld */,
 			);
 			path = CoreDataLearning;
 			sourceTree = "<group>";
@@ -109,6 +120,11 @@
 				TargetAttributes = {
 					B79C381C21C936F900E08403 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,6 +153,7 @@
 			files = (
 				B79C382E21C936F900E08403 /* LaunchScreen.storyboard in Resources */,
 				B79C382B21C936F900E08403 /* Assets.xcassets in Resources */,
+				7E6A5FAB229294E80098F056 /* rcpToVashi.gpx in Resources */,
 				B79C382621C936F900E08403 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,10 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79C382321C936F900E08403 /* ViewController.swift in Sources */,
+				7E6A5FDA2293E4400098F056 /* Card+CoreDataClass.swift in Sources */,
+				7E6A5FC82293C75D0098F056 /* PPerson+CoreDataClass.swift in Sources */,
 				B79C383621C9388C00E08403 /* PresistanceService.swift in Sources */,
-				B79C383A21C93EEC00E08403 /* Person+CoreDataProperties.swift in Sources */,
-				B79C383921C93EEC00E08403 /* Person+CoreDataClass.swift in Sources */,
-				B79C382921C936F900E08403 /* CoreDataLearning.xcdatamodeld in Sources */,
+				7E6A5FC92293C75D0098F056 /* PPerson+CoreDataProperties.swift in Sources */,
+				7E6A5FB22292B6560098F056 /* Model.xcdatamodeld in Sources */,
+				7E6A5FE72293FC570098F056 /* Card+CoreDataProperties.swift in Sources */,
+				7E6A5FA9229294E00098F056 /* LocationManager.swift in Sources */,
 				B79C382121C936F900E08403 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +375,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B79C382721C936F900E08403 /* CoreDataLearning.xcdatamodeld */ = {
+		7E6A5FB02292B6560098F056 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B79C383B21C94F7F00E08403 /* CoreDataLearning 2.xcdatamodel */,
-				B79C382821C936F900E08403 /* CoreDataLearning.xcdatamodel */,
+				7E6A5FB12292B6560098F056 /* Model.xcdatamodel */,
 			);
-			currentVersion = B79C383B21C94F7F00E08403 /* CoreDataLearning 2.xcdatamodel */;
-			path = CoreDataLearning.xcdatamodeld;
+			currentVersion = 7E6A5FB12292B6560098F056 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
